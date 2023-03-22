@@ -1,0 +1,355 @@
+/* sec-contact */
+.sec-contact {
+  padding-top: 55px;
+  padding-bottom: 49px;
+  padding-left: 108px;
+  background: #eeeded;
+  /* margin-top: 128px; */
+  border-bottom: 1px solid black;
+}
+
+.sec-contact .contact-info .contact-ttl {
+  margin-bottom: 35px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.sec-contact .contact-info .contact-p {
+  /*width: 505px;*/
+  line-height: 1.4;
+  margin-bottom: 27px;
+  font-size: 16px;
+  letter-spacing: 1.px;
+  /*color: #07296e;*/
+}
+
+.sec-contact .contact-info {
+
+  margin-left: 3px;
+}
+
+.sec-contact .contact-info .contact-p p::before {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin-right: 5px;
+  background: #141414;
+  content: '';
+  border-radius: 50%;
+}
+
+.sec-contact .contact-info .contact-p p {
+  color: #354E57;
+  font-weight: 700;
+}
+
+.sec-contact .contact-info .contact-p p strong {
+  /*color: #cf6c1b;*/
+  color: #FF8800;
+}
+
+.sec-contact .contact-address {
+  margin-top: 36px;
+  margin-left: 55px;
+}
+
+.sec-contact .contact-address .address-link {
+  float: left;
+  width: 516px;
+  margin-right: 37px;
+  padding: 36px 15px 8px 21px;
+  background: #ffffff;
+}
+
+.sec-contact .contact-address .address-link a {
+  text-decoration: underline;
+}
+
+.sec-contact .contact-address .address-link .add {
+  padding-bottom: 29px;
+  padding-left: 18px;
+}
+
+.sec-contact .contact-address .address-link .add .add-links {
+
+  padding-bottom: 10px;
+
+  font-size: 17px;
+}
+
+.sec-contact .contact-address .address-link .add a {
+
+  font-size: 16px;
+}
+
+.sec-contact .contact-address .address-link .address {
+  padding-bottom: 41px;
+  padding-left: 24px;
+}
+
+.sec-contact .contact-address .address-link .address h4 {
+  padding-bottom: 32px;
+  padding-left: 5px;
+}
+
+.sec-contact .contact-address .address-link .address .address-info {
+
+  padding-bottom: 21px;
+
+  padding-left: 1px;
+}
+
+.sec-contact .contact-address .address-link .address .address-info p {
+  /* letter-spacing: 0.5px; */
+  padding-bottom: 9px;
+  padding-left: 4px;
+}
+
+.sec-contact .contact-address .address-link .address .phone {
+  margin-left: 5px;
+  padding-bottom: 17px;
+}
+
+
+/* for ipad */
+@media screen and (min-width: 768px) and (max-width: 1180px) {
+
+  .sec-contact {
+    padding-top: 7.161vw;
+    padding-bottom: 3px;
+    padding-left: 4.818vw;
+    background: #eeeded;
+    /* margin-top: 128px; */
+    border-bottom: 0.13vw solid black;
+  }
+
+  .sec-contact .contact-info .contact-ttl {
+    margin-bottom: 4.557vw;
+    font-size: 6.25vw;
+    font-weight: 700;
+  }
+
+  .sec-contact .contact-info .contact-p {
+    /*width: 505px;*/
+    line-height: 1.7;
+    margin-bottom: 3.26vw;
+    font-size: 1.783vw;
+    letter-spacing: 0.13vw;
+    /*color: #07296e;*/
+  }
+
+  .sec-contact .contact-info {
+
+    margin-left: 0.491vw;
+  }
+
+  .sec-contact .contact-info .contact-p p::before {
+    display: inline-block;
+    width: 0.651vw;
+    height: 0.651vw;
+    margin-right: 0.651vw;
+    background: #141414;
+    content: '';
+    border-radius: 50%;
+  }
+
+  .sec-contact .contact-info .contact-p p {
+    color: #354E57;
+    font-weight: 700;
+  }
+
+  .sec-contact .contact-info .contact-p p strong {
+    /*color: #cf6c1b;*/
+    color: #FF8800;
+  }
+
+  .sec-contact .contact-address {
+    margin-top: 6.25vw;
+    margin-left: 11.458vw;
+  }
+
+  .sec-contact .contact-address .address-link {
+    float: none;
+    width: 67.188vw;
+    margin-right: 0;
+    margin-bottom: 5.799vw;
+    padding: 4.427vw 1.953vw 1.242vw 2.734vw;
+    background: #ffffff;
+  }
+
+  .sec-contact .contact-address .address-link a {
+    text-decoration: underline;
+  }
+
+  .sec-contact .contact-address .address-link .add {
+    padding-bottom: 3.776vw;
+    padding-left: 2.474vw;
+  }
+
+  .sec-contact .contact-address .address-link .add .add-links {
+
+    padding-bottom: 1.12vw;
+
+    font-size: 2.214vw;
+  }
+
+  .sec-contact .contact-address .address-link .add a {
+
+    font-size: 2.083vw;
+  }
+
+  .sec-contact .contact-address .address-link .address {
+    padding-bottom: 5.339vw;
+    padding-left: 3.125vw;
+  }
+
+  .sec-contact .contact-address .address-link .address h4 {
+    padding-bottom: 4.167vw;
+    padding-left: 0.651vw;
+  }
+
+  .sec-contact .contact-address .address-link .address .address-info {
+
+    padding-bottom: 3.034vw;
+
+    padding-left: 0.13vw;
+  }
+
+  .sec-contact .contact-address .address-link .address .address-info p {
+    /* letter-spacing: 0.5px; */
+    padding-bottom: 1.02vw;
+    padding-left: 0.521vw;
+  }
+
+  .sec-contact .contact-address .address-link .address .phone {
+    margin-left: 0.651vw;
+    padding-bottom: 2.214vw;
+  }
+
+
+
+
+
+}
+
+/* for mobile */
+@media screen and (max-width:767.9px) {
+  .sec-header .menu-other{
+    top:4.688vw;
+  }
+  .sec-contact {
+    padding-top: 6.161vw;
+    padding-bottom: 5.191vw;
+    padding-left: 2.818vw;
+    background: #EEEDED;
+    /* margin-top: 128px; */
+    border-bottom: 0.13vw solid #000000;
+  }
+
+  .sec-contact .contact-info .contact-ttl {
+    margin-bottom: 5.557vw;
+    font-size: 7.45vw;
+    font-weight: 700;
+  }
+
+  .sec-contact .contact-info .contact-p {
+    width: 100%;
+    line-height: 1.5;
+    margin-bottom: 3.996vw;
+    font-size: 2.383vw;
+    letter-spacing: 0.047vw;
+    /*color: #07296e;*/
+  }
+
+  .sec-contact .contact-info {
+
+    margin-left: 0.491vw;
+  }
+
+  .sec-contact .contact-info .contact-p p::before {
+    display: inline-block;
+    width: 0.651vw;
+    height: 0.651vw;
+    margin-right: 0.651vw;
+    background: #141414;
+    content: '';
+    border-radius: 50%;
+  }
+
+  .sec-contact .contact-info .contact-p p {
+    color: #354E57;
+    font-weight: 700;
+  }
+
+  .sec-contact .contact-info .contact-p p strong {
+    /*color: #cf6c1b;*/
+    color: #FF8800;
+  }
+
+  .sec-contact .contact-address {
+    margin-top: 6.05vw;
+    margin-left: 7.058vw;
+  }
+
+  .sec-contact .contact-address .address-link {
+    float: none;
+    width: 80.188vw;
+    margin-right: 0;
+    margin-bottom: 6.3499vw;
+    padding: 4.427vw 2.953vw 2.242vw 2.734vw;
+    background: #ffffff;
+  }
+
+  .sec-contact .contact-address .address-link a {
+    text-decoration: underline;
+  }
+
+  .sec-contact .contact-address .address-link .add {
+    padding-bottom: 3.976vw;
+    padding-left: 3.474vw;
+  }
+
+  .sec-contact .contact-address .address-link .add .add-links {
+
+    padding-top: 0.6vw;
+
+    padding-bottom: 1.52vw;
+
+    font-size: 2.564vw;
+  }
+
+  .sec-contact .contact-address .address-link .add a {
+
+    font-size: 2.43vw;
+  }
+
+  .sec-contact .contact-address .address-link .address {
+    padding-bottom: 5.339vw;
+    padding-left: 3.125vw;
+  }
+
+  .sec-contact .contact-address .address-link .address h4 {
+    padding-top: 1vw;
+    padding-bottom: 5.167vw;
+    padding-left: 1.151vw;
+  }
+
+  .sec-contact .contact-address .address-link .address .address-info {
+
+    padding-bottom: 4.034vw;
+
+    padding-left: 0.7vw;
+  }
+
+  .sec-contact .contact-address .address-link .address .address-info p {
+    /* letter-spacing: 0.5px; */
+    padding-bottom: 1.02vw;
+    padding-left: 0.521vw;
+  }
+
+  .sec-contact .contact-address .address-link .address .phone {
+    margin-left: 0.991vw;
+    padding-bottom: 2.214vw;
+  }
+
+}
